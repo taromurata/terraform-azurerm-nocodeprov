@@ -1,7 +1,8 @@
 variable "resource_group_name" {
-  default = "myTFResourceGroup"
+  description = "Resource group name"
 }
 
 variable "azure_location" {
-  default = "westus2"
+  description = "Azure Location"
+  #default = "westus2"
 }
